@@ -21,6 +21,7 @@ section{
 .header-area{
     background-image: url('images/header-bg.png');
     background-repeat: no-repeat;
+    background-position: left;
 }
 .link-button{
     background-color: magenta;
