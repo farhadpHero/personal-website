@@ -4,10 +4,10 @@ body{
 }
  
 p{
-    color:dimgray ;
+    color:dimray ;
 }
-.magenta-highlight{
-    color: magenta;
+.pink-highlight{
+    color: deeppink;
     font-size: 50px;
 }
 .half-width img{
@@ -29,7 +29,7 @@ section{
     background-position: left;
 }
 .link-button{
-     background-image: linear-gradient(45deg,magenta,pink);
+     background-image: linear-gradient(45deg,deeppink,pink);
     padding: 10px 20px;
     text-decoration: none;
     text-transform: uppercase;
@@ -65,17 +65,45 @@ section{
 
 .heading-position{
     text-align: center;
-    font-size: 60px;
+     
 }
 
+.client-division{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 100px;
+}
 
+.footer-area{
+    background-image: url('images/footer-bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
 
+ .contact-area{
+     width: 40%;
+     height: 23%;
+     text-align: center;
+     color: white;
+     background-image: linear-gradient(180deg,deeppink,hotpink);
+     border-radius: 5px;
+     position: relative;
+     top: 0;
+     right: 0;
+     left: 0;
+     margin: auto;
+ }
+.contact-area a{
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+}
 
-
-
-
-
-
+footer p{
+    text-align: center;
+    font-size: 12px;
+}
 
 
 
